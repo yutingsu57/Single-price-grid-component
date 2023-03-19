@@ -7,7 +7,8 @@ body {
 .grid_center {
     display: grid;
     place-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 .promo_card {
@@ -71,7 +72,6 @@ body {
     border: none;
     border-radius: .425rem;
     margin: .725rem 0;
-
 }
 
 .price_plan:hover .cta_btn {
@@ -91,10 +91,7 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
 }
 
 .attribution a {
